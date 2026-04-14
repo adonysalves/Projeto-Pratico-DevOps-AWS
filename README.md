@@ -61,14 +61,12 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 </p>
 
 <p align="center">
-  <strong>🔴 Problema Real</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>🟢 Solução</strong>
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3c71e2a4-1a25-4599-b2cb-f48c85b5e0e1" height="300" />
-  <img src="https://github.com/user-attachments/assets/e524b2b8-1def-48d9-8450-b78eac6e26ae" height="300" />
+ <img width="932" height="525" alt="image" src="https://github.com/user-attachments/assets/34d5a465-e3d7-402e-8d07-e4df631d9219" />
 </p>
 
 ### Projeto 2: Automatização de Infraestrutura com Terraform (IaC) (Nível Intermediário)
@@ -79,7 +77,18 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - **Tempo Estimado**: 2-4 horas.
 - **Desafio Inicial**: Tente recriar manualmente o ambiente do Projeto 1 em uma nova região e note os pontos de dor.
 
-*[Espaço para print: Diagrama da arquitetura do Projeto 2, mostrando arquivos Terraform → AWS Infra (EC2/ECR) → Deploy Docker]*
+<p align="center">
+ ☁️ <strong>Diagrama da arquitetura do Projeto 2</strong>
+</p>
+
+<p align="center">
+  <strong>🟢 Solução</strong>
+</p>
+
+
+<p align="center">
+ <img width="934" height="611" alt="image" src="https://github.com/user-attachments/assets/cb1692e0-3f4c-4983-9f8e-d9d656ab2cb7" />
+</p>
 
 
   ### Projeto 3: Automatização Completa com CI/CD (GitHub Actions + Terraform + Docker) (Nível Avançado)
