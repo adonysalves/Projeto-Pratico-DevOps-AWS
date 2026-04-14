@@ -46,9 +46,11 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 
 <details open>
    <summary>🗂️ Visão Geral dos Projetos</summary>
-
-### Projeto 1: Containerização com Docker e Deploy Manual na AWS (Nível Básico)
-
+<hr>
+  <p align="center">
+⬇️  Projeto 1: Containerização com Docker e Deploy Manual na AWS (Nível Básico)  ⬇️
+  </p>
+<hr>
 - **Problema Real**: Imagine você em uma pequena equipe: O dev altera o código, mas no servidor AWS, "não funciona" por causa de dependências diferentes. Deploys envolvem SSH manual, levando a erros e tempo perdido.
 - **Solução Prática**: Use Docker para "empacotar" o site em um container portátil. Crie um ECR na AWS, push a imagem e deploy manual na EC2.
 - **Ferramentas Aprendidas**: Docker, AWS CLI, ECR, EC2, Security Groups.
@@ -68,8 +70,11 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 <p align="center">
  <img width="932" height="525" alt="image" src="https://github.com/user-attachments/assets/34d5a465-e3d7-402e-8d07-e4df631d9219" />
 </p>
-
-### Projeto 2: Automatização de Infraestrutura com Terraform (IaC) (Nível Intermediário)
+<hr>
+<p align="center">
+⬇️⬇️  Projeto 2: Automatização de Infraestrutura com Terraform (IaC) (Nível Intermediário)  ⬇️⬇️
+  </p>
+<hr>
 - **Problema Real**: Agora a startup cresce: Você precisa recriar ambientes (dev/staging/prod) rapidamente, mas cliques manuais no console AWS causam inconsistências, erros e "drift" (mudanças não rastreadas). Um deploy de emergência falha porque uma configuração foi esquecida.
 - **Solução Prática**: Trate a infra como código com Terraform. Declare recursos como EC2, ECR e IAM Roles em arquivos HCL, e o Terraform provisiona tudo automaticamente.
 - **Ferramentas Aprendidas**: Terraform (init/plan/apply/destroy), backends remotos (S3 para state), outputs para integração.
@@ -90,8 +95,12 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
  <img width="934" height="611" alt="image" src="https://github.com/user-attachments/assets/cb1692e0-3f4c-4983-9f8e-d9d656ab2cb7" />
 </p>
 
+<hr >
+<p align="center">
+⬇️⬇️⬇️  Projeto 3: Automatização Completa com CI/CD (GitHub Actions + Terraform + Docker) (Nível Avançado)  ⬇️⬇️⬇️
+  </p>
+<hr>
 
-  ### Projeto 3: Automatização Completa com CI/CD (GitHub Actions + Terraform + Docker) (Nível Avançado)
 - **Problema Real**: Com múltiplos devs, changes diárias viram caos: Deploys manuais criam gargalos, erros humanos e falta de auditabilidade. Um pico de tráfego exige update rápido, mas conflitos no Terraform state causam downtime.
 - **Solução Prática**: Separe repos (app e infra), use GitHub Actions para pipelines CI/CD. Push no código dispara builds Docker, plans Terraform e deploys com aprovações manuais para segurança.
 - **Ferramentas Aprendidas**: GitHub Actions (workflows YAML, secrets, aprovações), integração multi-repo.
