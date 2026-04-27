@@ -56,7 +56,6 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - **Ferramentas Aprendidas**: Docker, AWS CLI, ECR, EC2, Security Groups.
 - **Conexão**: Isso resolve o "funciona na minha máquina", mas ainda é manual – preparando o terreno para automação na Fase 2.
 - **Tempo Estimado**: 2-3 horas.
-- **Desafio Inicial**: Tente deployar manualmente sem Docker e veja os erros de dependências.
 
 <p align="center">
  ☁️ <strong>Diagrama da arquitetura do Projeto 1</strong>
@@ -80,7 +79,6 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - **Ferramentas Aprendidas**: Terraform (init/plan/apply/destroy), backends remotos (S3 para state), outputs para integração.
 - **Conexão**: Integra com o Docker do Projeto 1 – agora a infra é reproduzível, mas o deploy ainda requer SSH manual. Isso motiva a full automation na Fase 3.
 - **Tempo Estimado**: 2-4 horas.
-- **Desafio Inicial**: Tente recriar manualmente o ambiente do Projeto 1 em uma nova região e note os pontos de dor.
 
 <p align="center">
  ☁️ <strong>Diagrama da arquitetura do Projeto 2</strong>
@@ -106,7 +104,14 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - **Ferramentas Aprendidas**: GitHub Actions (workflows YAML, secrets, aprovações), integração multi-repo.
 - **Conexão**: Une tudo: Docker do Projeto 1 + Terraform do Projeto 2 em um fluxo automatizado. Agora, é um pipeline DevOps real, escalável para equipes.
 - **Tempo Estimado**: 3-5 horas.
-- **Desafio Inicial**: Simule deploys simultâneos manuais no setup do Projeto 2 e veja conflitos.
+  
+<p align="center">
+  <strong>🟢 Solução</strong>
+</p>
+
+<p align="center">
+<img width="559" height="623" alt="image" src="https://github.com/user-attachments/assets/e918689a-471b-4a1f-82d7-0aad6a1e71fc" />
+</p>
 
 </details>
 
@@ -131,6 +136,7 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - 🔄 **CI/CD (GitHub Actions)**: Orquestra deploys rápidos e seguros  
 - 🔐 **Melhores Práticas**: Secrets management, aprovações, state locking, drift detection  
 
+
 ---
 ## 📚 Recursos Adicionais
 - [Documentação Docker](https://docs.docker.com/)
@@ -138,6 +144,8 @@ Este repositório contém 3 pastas, cada uma com um projeto independente, mas in
 - [GitHub Actions Docs](https://docs.github.com/en/actions)
 - Livros: "The DevOps Handbook" para teoria aplicada.
 - Comunidades: Reddit r/devops, Stack Overflow.
+
+Esses projetos simulam uma progressão real: De manual para IaC para automatizado, resolvendo problemas como escalabilidade, colaboração e erros humanos.
 
 ---
 ## 🙌 Créditos e Referências
